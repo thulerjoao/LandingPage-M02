@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: roboto, arial, serif;
+}
+
+main {
+  margin: 0 10rem 0 10rem;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+ul#menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  
+}
+
+ul#menu li{
+  padding: 0.7rem;
+  color: #fff;
+}
+
+ul#menu li i{
+  font-size: 2rem;
+}
+
+ul#menu li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+ul#menu li:hover{
+  transform: scale(1.2);
+}
+
+nav {
+  background-color: rgb(44, 150, 221);
+  position: fixed;
+  width: 100%;
+}
+
+header img{
+  width: 100%;
+  margin-top: 3.7rem;  
+}
+
+header h1{
+  text-align: center;
+  margin-top: 3rem;
+}
+header p{
+  margin:  0 10rem 0 10rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+section#cursos h2{
+  text-align: center;
+  padding: 3rem;
+  font-size: 2.5rem;
+}
+section#cursos{
+  margin-bottom: 10rem;
+}
+
+section#cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card{
+  width: 20rem;
+  box-shadow: 5px 5px 5px 5px #00000025;
+  padding: 1rem;
+  transition: transform .4s ease;
+}
+.card img{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+.card h3{
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+.card p{
+  font-size: 1.1rem;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+section#imagens{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section#imagens figure figcaption{
+  text-align: center;
+}
+section#imagens figure img{
+  margin-left: 2rem;
+  margin-top: 8rem;
+}
+section#imagens p{
+  padding: 7rem 2rem 2rem 2rem;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+section#inscrevase{
+  display: flex;
+  justify-content: flex-start;
+  padding: 5rem;
+  align-items: center;
+  
+}
+
+section#inscrevase form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+section#inscrevase input{
+  border-style:inset;
+  padding: .5rem;
+  margin: .5rem 1rem 1rem 1rem;
+  font-size: 1.3rem;
+  width: 100%;
+  border-width: .1rem;
+}
+section#inscrevase label{
+  margin: 0 0 0 1rem;
+  font-size: 1.3rem;
+  color: rgb(44, 150, 221);
+}
+section#inscrevase form button{
+  border: solid 2px rgb(44, 150, 221);
+  padding: .7rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: rgb(44, 150, 221);
+  width: 20%;
+  transition: all .4s ease;
+}
+
+section#inscrevase form button:hover{
+  background-color:rgb(44, 150, 221);
+  color:#fff;
+  cursor: pointer;
+}
+section#inscrevase img{
+  width: 50%;
+}
+section#inscrevase h2{
+  width: 100%;
+  font-size: 1.6rem;
+  color:rgb(44, 150, 221)
+}
+
+footer {
+  padding: 4rem;
+  margin-top: 5rem;
+  background-color: rgb(44, 150, 221);
+  text-align: center;
+  color: #fff;
+  font-size: 1.3rem;
+}
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover{
+  color:rgb(246, 175, 237);
+}
