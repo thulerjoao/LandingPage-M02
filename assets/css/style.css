@@ -43,6 +43,7 @@ nav {
   background-color: rgb(44, 150, 221);
   position: fixed;
   width: 100%;
+  z-index: 9999;
 }
 
 header img{
@@ -182,4 +183,24 @@ footer a{
 }
 footer a:hover{
   color:rgb(246, 175, 237);
+}
+[data-anime]{
+  opacity: 0;
+  transition: 1s;
+}
+[data-anime="up"]{
+  transform: translate3d(0, 100%, 0);
+}
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.buttonDisable{
+  border: #fff !important;
+  color: #fff !important;
+}
+
+.buttonDisable:hover{
+  background-color: #fff !important;
 }

@@ -32,7 +32,7 @@
         <h2>Cursos</h2>
 
         <section id="cards">
-          <div class="card">
+          <div class="card" data-anime="up">
             <img src="https://digitalents.com.br/wp-content/uploads/2016/03/html5-logo.png" alt="Logo html">
             <h3>HTML5</h3>
             <p class="texto">
@@ -42,7 +42,7 @@
             </p>
           </div>
   
-          <div class="card">
+          <div class="card" data-anime="up">
             <img src="https://digitalents.com.br/wp-content/uploads/2016/03/css-logo.png" alt="Logo CSS">
             <h3>CSS3</h3>
             <p class="texto">
@@ -53,7 +53,7 @@
             </p>
           </div>
   
-          <div class="card">
+          <div class="card" data-anime="up">
             <img src="https://digitalents.com.br/wp-content/uploads/2016/03/js-logo.png" alt="Logo do JS">
             <h3>Java Script</h3>
             <p class="texto">
@@ -63,7 +63,7 @@
             </p>
           </div>
   
-          <div class="card">
+          <div class="card" data-anime="up">
             <img src="https://images.squarespace-cdn.com/content/v1/556c9bf4e4b0de57cb590a0f/1433275776438-8AOXJ85ZC7Q3ASU01PFV/python.png?format=500w" alt="Logo do Python">
             <h3>Python + SQL</h3>
             <p class="texto">
@@ -95,13 +95,13 @@
           <form>
             <h2>Formulário de Inscrição</h2>            
             
-            <label for="nome">Nome</label>
+            <label for="nome" id="labelNome">Nome</label>
             <input type="text" id="nome" name="Nome">
     
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="E-mail">
+            <label for="email" id = "labelEmail">E-mail</label>
+            <input type="email" id = "email" name="E-mail">
     
-            <button type="submit" >Enviar</button>
+            <button type="submit" id = "buttonEnviar" calss="buttonDisable">Enviar</button>
     
           </form>
 
@@ -120,5 +120,6 @@
           Todos os direitos reservados. &copy;
         </p>
       </footer>
+  <script src="./assets/js/script.js"></script>
   </body>
 </html>
